@@ -5,8 +5,8 @@
 ### Compiling and running (Ubuntu 16.04) ###
 ```
 sudo apt install build-essential libsdl2-dev libsdl2-mixer-dev
-mkdir chip8 && cd chip8
 git clone https://github.com/aroess/chip8-emulator
+cd chip8-emulator
 make -B
 ./chip8 roms/BREAKOUT
 ```
@@ -21,6 +21,7 @@ make -B
 ```
 
 ```ESC``` = Quit
+
 ```p``` = Toggle "halt after every opcode execution"
 
 ### Accuracy ###
